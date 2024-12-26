@@ -1,0 +1,20 @@
+.hidden {display: none;}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 4px;
+  border-radius: 10px;
+}
+
+
+ul li:hover a {
+  text-shadow: 0 0 .6px black;
+  transition: .3s;
+}

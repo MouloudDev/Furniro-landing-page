@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <title>Furniro</title>
+</head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../images/logo.png" alt="Furniro logo"/>
+        <span class="logo_text">Furniro</span>
+      </div>
+      <nav id="nav">
+        <ul class="nav_list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="actions_list_mobile">
+          <li><a href="#"> <img src="../svg/user_account_icon.svg" alt="user icon" /> </a></li>
+          <li><a href="#"> <img src="../svg/magnifier.svg" alt="magnifier icon" /> </a></li>
+          <li><a href="#"> <img src="../svg/heart.svg" alt="hearticon" /> </a></li>
+          <li><a href="#"> <img src="../svg/cart.svg" alt="cart icon" /> </a></li>
+        </ul>
+      </nav>
+      <ul class="actions_list_desktop">
+        <li><a href="#"> <img src="../svg/user_account_icon.svg" alt="user icon" /> </a></li>
+        <li><a href="#"> <img src="../svg/magnifier.svg" alt="magnifier icon" /> </a></li>
+        <li><a href="#"> <img src="../svg/heart.svg" alt="hearticon" /> </a></li>
+        <li><a href="#"> <img src="../svg/cart.svg" alt="cart icon" /> </a></li>
+      </ul>
+      <button id="toggle_nav_btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="bars_icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="x_icon" class="hidden">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="hero_section">
+        <div class="hero_text_container">
+          <span>New Arrival</span>
+          <h2>Discover Our New Collection</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+          <button class="buy_now_button">Buy now</button>
+        </div>
+      </section>
+      <section class="range_section">
+        <h2>Browse The Range</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="range_preview_container">
+          <div class="preview_cell">
+            <div class="img_container"><img src="../images/dining.png" alt="dining room"/></div>
+            <p>dining</p>
+          </div>
+          <div class="preview_cell">
+            <div class="img_container"><img src="../images/living.png" alt="living room"/></div>
+            <p>living</p>
+          </div>
+          <div class="preview_cell">
+            <div class="img_container"><img src="../images/bedroom.png" alt="bedroom room"/></div>
+            <p>bedroom</p>
+          </div>
+        </div>
+      </section>
+      <section class="products_section">
+        <h2>Our Products</h2>
+        <div class="product_list">
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Syltherine.png" alt="Syltherine img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Syltherine</h3>
+              <p class="product_descr">Stylish cafe chair</p>
+              <div>
+                <span class="price">2500 USD</span>
+                <span class="prev_price">2500 USD</span>
+              </div>
+            </div>
+            <div class="discound">-30%</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Leviosa.png" alt="Leviosa img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Leviosa</h3>
+              <p class="product_descr">Stylish cafe chair</p>
+              <div>
+                <span class="price">2500 USD</span>
+              </div>
+            </div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Lolito.png" alt="Lolito img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Lolito</h3>
+              <p class="product_descr">Luxury big sofa</p>
+              <div>
+                <span class="price">7000 USD</span>
+                <span class="prev_price">14000 USD</span>
+              </div>
+            </div>
+            <div class="discound">-50%</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Respira.png" alt="Respira img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Respira</h3>
+              <p class="product_descr">Outdoor bar table and stool</p>
+              <div>
+                <span class="price">5000 USD</span>
+              </div>
+            </div>
+            <div class="new_stamp">New</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Grifo.png" alt="Grifo img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Grifo</h3>
+              <p class="product_descr">Night lamp</p>
+              <div>
+                <span class="price">500 USD</span>
+              </div>
+            </div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Muggo.png" alt="Muggo img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Muggo</h3>
+              <p class="product_descr">Small mug</p>
+              <div>
+                <span class="price">150 USD</span>
+              </div>
+            </div>
+            <div class="new_stamp">New</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Syltherine.png" alt="Syltherine img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Pingky</h3>
+              <p class="product_descr">Cute bed set</p>
+              <div>
+                <span class="price">3500 USD</span>
+                <span class="prev_price">7000 USD</span>
+              </div>
+            </div>
+            <div class="discound">-50%</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img_container"><img src="../images/Potty.png" alt="Potty img"/></div>
+            <div class="product_details_contanier">
+              <h3 class="product_name">Potty</h3>
+              <p class="product_descr">Minimalist flower pot</p>
+              <div>
+                <span class="price">3500 USD</span>
+              </div>
+            </div>
+            <div class="new_stamp">New</div>
+            <div class="product_card_overlay">
+              <button class="add_to_cart_button">Add to cart</button>
+              <div class="action_buttons_container">
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white" />
+                  </svg>
+                  <span>share</span>
+                </button>
+                <button>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z" fill="white"/>
+                  </svg>
+                  <span>compare</span>
+                </button>
+                <button>
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z" stroke="white" stroke-width="1.8"/>
+                  </svg>
+                  <span>like</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="show_more_button">show more</button>
+      </section>
+      <section class="inspiration_section">
+        <div class="inspiration_content_container">
+          <div class="inspiration_header">
+            <h2>50+ Beautiful rooms inspiration</h2>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <button class="explore_more_button">Explore More</button>
+          </div>
+          <div class="featured_image_container">
+            <img src="../images/featured_image.png" alt="room image" />
+            <div class="featured_text_container">
+              <div>
+                <span>01 ---- Bed Room</span>
+                <p>Inner Peace</p>
+              </div>
+              <button>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 12H3M21 12L15 6M21 12L15 18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="carousel">
+            <div class="carousel_imgs_container" id="carousel_imgs_container">
+              <ul id="carousel_img_list">
+                <li><img src="../images/carousel_img_1.png" alt="room img" /></li>
+                <li><img src="../images/carousel_img_2.png" alt="room img" /></li>
+                <li><img src="../images/carousel_img_3.jpg" alt="room img" /></li>
+                <li><img src="../images/carousel_img_4.jpg" alt="room img" /></li>
+              </ul>
+              <button id="next_button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.00006 5L16.0001 12L9.00006 19" stroke="#B88E2F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="carousel_nav">
+              <div class="dot_wrapper curr_slide_dot"><div class="dot"></div></div>
+              <div class="dot_wrapper"><div class="dot"></div></div>
+              <div class="dot_wrapper"><div class="dot"></div></div>
+              <div class="dot_wrapper"><div class="dot"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="setup_share_sectoin">
+        <p>Share your setup with</p>
+        <h2>#FuniroFurniture</h2>
+        <div class="setup_gallery">
+          <div class="column">
+            <div class="setup_img_container"><img src="../images/setup_img_1.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_2.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_3.png" alt="setup image"/></div>
+          </div>
+          <div class="column">
+            <div class="setup_img_container"><img src="../images/setup_img_4.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_5.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_6.png" alt="setup image"/></div>
+          </div>
+          <div class="column">
+            <div class="setup_img_container"><img src="../images/setup_img_7.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_8.png" alt="setup image"/></div>
+            <div class="setup_img_container"><img src="../images/setup_img_9.png" alt="setup image"/></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_content_container">
+        <div class="footer_columns_container">
+          <div class="footer_column">
+            <span>Furniro.</span>
+            <p>400 University Drive Suite 200 Coral Gables, <br /> FL 33134 USA</p>
+          </div>
+          <div class="footer_column">
+            <p class="footer_col_header">Links</p>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <p class="footer_col_header">Help</p>
+            <ul>
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Privacy Policies</a></li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <p class="footer_col_header">Newsletter</p>
+            <form class="newsletter_subscribe_form">
+              <input placeholder="Enter Your Email Address" class="email_input"/>
+              <button type="submit" class="newsletter_subscribe_button">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <small class="copyright_text">2023 furino. All rights reverved</small>
+      </div>
+    </footer>
+    <script defer src="../js/index.js"></script>
+    <script defer src="../js/carousel.js"></script>
+  </body>
+</html>
